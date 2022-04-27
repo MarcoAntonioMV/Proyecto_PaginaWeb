@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: 'League Spartan', sans-serif;
+    font-weight:bold;
+    
+}
+
+.margenreducido{
+    padding: 0px 12%;
+}
+
+
+#logo{
+    width:70px;
+    display: inline-block;
+}
+
+h1{
+    margin-bottom:4px ;
+    display: inline-block;
+}
+
+.encabezado{
+    background-color:#ff9400;
+    padding: 0px 10%;
+}
+
+div.divbotones{
+    float: right;
+    display: inline-block;
+    margin-top: 30px;
+
+}
+
+div.divbotones a{
+    background-color: #ff9400;
+    color: white;
+    text-decoration: none;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    margin: 0px 50px;
+    padding: 10px;
+    transition: 0.3s;
+    
+}
+
+div.divbotones a:hover{
+    background-color: #d37b00;
+    padding-right:13px ;
+    padding-left:13px ;
+    transition: 0.3s;
+}
+
+h2{
+    text-align: center;
+}
+
+div.vinculosimagenes img{
+    height: 150px;
+    margin: 0px 30px;
+}
+
+div.lanzamientos{
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+div.lanzamientos div {
+    width: 210px;
+    height: 278.5px;
+    display: inline-block;
+    padding: 7px;
+    background-color: rgb(168, 163, 142);
+    border: 5px;
+    border-style: solid;
+    border-radius: 11px;
+    border-color: #ffffff;
+    transition: 0.3s;
+}
+
+
+ div.lanzamientos  div:hover  {
+  
+    border-color: #ffb428;
+    transition: 0.3s;
+}
+
+
+
+div.lanzamientos div img{
+    width: 210px;
+    height: 192.7px;
+    display: inline-block;
+    
+
+}
+
+div.lanzamientos div h3{
+    text-align: center;
+    
+
+}
+
+div.lanzamientos a{
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+div.specsimg{
+    text-align: center;
+}
+
+div.specsimg img{
+    width: 60%;
+    
+}
+
+div.junto div{
+    display: inline-block;
+    width: 49%;
+}
+
+div.junto div h3{
+    float: left;
+}
+
+@media screen and (max-width:760px) {
+    .encabezado{
+        padding: 0% 0%;
+        padding-left: 5%;
+    } 
+}
+
+@media screen and (max-width:640px) {
+    div.divbotones{
+        display: none ;
+    }
+}
+
+@media screen and (max-width:500px) {
+   div.junto div h3{
+       font-size: 14px;
+   }
+
+   div.junto div h4{
+       font-size: 12px;
+   }
+}
+
+div.piedepagina{
+    background-color: rgb(122, 119, 104);
+}
+
+div.piedepagina h5{
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+}
+
+div.piedepagina p{
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.botoninicio{
+    text-decoration: none;
+    
+}
+
+.infcontacto{
+    text-align: center;
+}
