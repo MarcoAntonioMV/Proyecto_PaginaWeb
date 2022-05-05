@@ -30,7 +30,6 @@ h1{
 
 div.divbotones{
     float: right;
-    display: inline-block;
     margin-top: 30px;
 
 }
@@ -131,29 +130,6 @@ div.junto div h3{
     float: left;
 }
 
-@media screen and (max-width:760px) {
-    .encabezado{
-        padding: 0% 0%;
-        padding-left: 5%;
-    } 
-}
-
-@media screen and (max-width:640px) {
-    div.divbotones{
-        display: none ;
-    }
-}
-
-@media screen and (max-width:500px) {
-   div.junto div h3{
-       font-size: 14px;
-   }
-
-   div.junto div h4{
-       font-size: 12px;
-   }
-}
-
 div.piedepagina{
     background-color: rgb(122, 119, 104);
 }
@@ -179,6 +155,28 @@ div.piedepagina p{
     text-align: center;
 }
 
+@media screen and (max-width:760px) {
+    .encabezado{
+        padding: 0% 0%;
+        padding-left: 5%;
+    } 
+}
+
+@media screen and (max-width:640px) {
+    div.divbotones{
+        display: none ;
+    }
+}
+
+@media screen and (max-width:500px) {
+   div.junto div h3{
+       font-size: 14px;
+   }
+
+   div.junto div h4{
+       font-size: 12px;
+   }
+}
 
 /* APARTIR DE AQUI VAN A IR LOS ESTILOS PARA LA API*/
 
