@@ -178,3 +178,54 @@ div.piedepagina p{
 .infcontacto{
     text-align: center;
 }
+
+
+/* APARTIR DE AQUI VAN A IR LOS ESTILOS PARA LA API*/
+
+div#lanzamientos-recientes{
+    padding: 20px;
+}
+
+div#lanzamientos-recientes div {
+    width: 210px;
+    height: 278.5px;
+    display: inline-block;
+    padding: 7px;
+    background-color: rgb(168, 163, 142);
+    border: 5px;
+    border-style: solid;
+    border-radius: 11px;
+    border-color: #ffffff;
+    transition: 0.3s;
+}
+
+
+ div#lanzamientos-recientes  div:hover  {
+  
+    border-color: #ffb428;
+    transition: 0.3s;
+}
+
+
+
+div#lanzamientos-recientes div img{
+    width: 210px;
+    height: 192.7px;
+    display: inline-block;
+    
+
+}
+
+div#lanzamientos-recientes div h3{
+    text-align: center;
+    
+
+}
+
+div#lanzamientos-recientes a{
+    text-decoration: none;
+    color: black;
+    
+    
+
+}
