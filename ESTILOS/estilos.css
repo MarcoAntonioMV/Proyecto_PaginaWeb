@@ -16,6 +16,12 @@ body{
 #logo{
     width:70px;
     display: inline-block;
+    margin-top: 13px;
+}
+
+.botoninicio{
+    text-decoration: none;
+    
 }
 
 h1{
@@ -42,7 +48,7 @@ div.divbotones a{
     border-left-style: solid;
     border-radius: 10px;
     border-color: white;
-    margin: 0px 50px;
+    margin: 0px 53px;
     padding: 10px;
     transition: 0.3s;
     
@@ -50,6 +56,7 @@ div.divbotones a{
 
 div.divbotones a:hover{
     background-color: #d37b00;
+    margin: 0px 50px;
     padding-right:13px ;
     padding-left:13px ;
     transition: 0.3s;
@@ -59,13 +66,20 @@ h2{
     text-align: center;
 }
 
+
 div.vinculosimagenes img{
     height: 150px;
-    margin: 0px 30px;
+    margin: 5px 30px;
+    transition: 0.3s;
+}
+
+div.vinculosimagenes img:hover{
+    height: 155px;
+    margin: 0px 25px;
+    transition: 0.3s;
 }
 
 div.lanzamientos{
-    background-color: #ffffff;
     padding: 20px;
 }
 
@@ -94,22 +108,17 @@ div.lanzamientos div {
 div.lanzamientos div img{
     width: 210px;
     height: 192.7px;
-    display: inline-block;
-    
-
 }
 
 div.lanzamientos div h3{
     text-align: center;
     
-
 }
 
 div.lanzamientos a{
     text-decoration: none;
     color: black;
     
-
 }
 
 div.specsimg{
@@ -140,20 +149,37 @@ div.piedepagina h5{
     color: #ffffff;
 }
 
-div.piedepagina p{
+div.piedepagina div{
+    text-align: center;
+}
+
+div.piedepagina a{
     font-size: 15px;
-    text-align: center;
     color: #ffffff;
-}
-
-.botoninicio{
     text-decoration: none;
-    
+    transition: 0.3s;
 }
 
-.infcontacto{
+div.piedepagina a:hover{
+    color:#d37b00;
+    transition: 0.3s;
+}
+
+div.infcontacto{
     text-align: center;
 }
+
+div.infcontacto a{
+    text-decoration: none;
+    color: black;
+}
+
+div.infcontacto a:hover{
+    color:#d37b00;
+    transition: 0.3s;
+}
+
+/* AQUI VAN LAS REGLAS PARA EL DISEÑO EN DIFERENTES DISPOSITIVOS*/
 
 @media screen and (max-width:760px) {
     .encabezado{
@@ -178,52 +204,4 @@ div.piedepagina p{
    }
 }
 
-/* APARTIR DE AQUI VAN A IR LOS ESTILOS PARA LA API*/
 
-div#lanzamientos-recientes{
-    padding: 20px;
-}
-
-div#lanzamientos-recientes div {
-    width: 210px;
-    height: 278.5px;
-    display: inline-block;
-    padding: 7px;
-    background-color: rgb(168, 163, 142);
-    border: 5px;
-    border-style: solid;
-    border-radius: 11px;
-    border-color: #ffffff;
-    transition: 0.3s;
-}
-
-
- div#lanzamientos-recientes  div:hover  {
-  
-    border-color: #ffb428;
-    transition: 0.3s;
-}
-
-
-
-div#lanzamientos-recientes div img{
-    width: 210px;
-    height: 192.7px;
-    display: inline-block;
-    
-
-}
-
-div#lanzamientos-recientes div h3{
-    text-align: center;
-    
-
-}
-
-div#lanzamientos-recientes a{
-    text-decoration: none;
-    color: black;
-    
-    
-
-}

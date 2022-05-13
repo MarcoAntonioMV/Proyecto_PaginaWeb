@@ -12,7 +12,7 @@ fetch(url).then(function(respuesta){
     console.log(datos.length);
     for(let i=0; i < datos.length; i++){
         lanzamientosr.innerHTML+= "<a href='"+datos[i]["pagina"]+"'> <div> <img src='" + uri + datos[i]["imagen"]+"'> <h3>"+datos [i]["nombre"]+" </h3> </div> </a>";
-
+        lanzamientosr.classList.add("lanzamientos")
     }
     console.log(lanzamientosr);
     
