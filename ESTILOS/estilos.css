@@ -181,14 +181,14 @@ div.infcontacto a:hover{
 
 /* AQUI VAN LAS REGLAS PARA EL DISEÑO EN DIFERENTES DISPOSITIVOS*/
 
-@media screen and (max-width:760px) {
+@media screen and (max-width:772px) {
     .encabezado{
         padding: 0% 0%;
         padding-left: 5%;
     } 
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:650px) {
     div.divbotones{
         display: none ;
     }
